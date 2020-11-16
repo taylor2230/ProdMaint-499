@@ -1,0 +1,103 @@
+/*
+generic css
+*/
+
+* {
+    margin:0;
+    padding: 0;
+    font-family: Arial;
+    display: flex;
+}
+
+.generic-header {
+    display: flex;
+    flex-flow: column;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+a {
+    margin: 8px;
+    text-decoration: none;
+    justify-content: left;
+}
+
+.generic-header > a > button {
+    font-weight: 400;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    width: 175px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.generic-header > a:hover > button {
+    color: rgb(0, 41, 125);
+}
+
+.product-details {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+.product-details > form {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 10px;
+}
+
+.generic-label {
+    
+}
+
+.generic-text {
+    padding: 5px;
+    margin: 2px;
+}
+
+.generic-button {
+    font-weight: 400;
+    font-size: 16px;
+    background: rgba(226, 226, 226, 0.6);
+    width: 175px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    text-align: left;   
+}
+
+
+.cancel-button {
+    position: relative;
+    top: 5px;
+    margin: 0;
+}
+
+.cancel-button > button {
+    font-weight: 400;
+    font-size: 16px;
+    background: rgba(226, 226, 226, 0.6);
+    width: 175px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    text-align: left;   
+}
+
+.generic-errors-wrapper {
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+.generic-error {
+    text-transform: uppercase;
+    color: red;
+    margin: 5px;
+}

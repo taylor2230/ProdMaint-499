@@ -1,0 +1,41 @@
+/*
+catalog css only
+*/
+
+.product-display {
+    position: relative;
+    display: inline;
+    flex-flow: column;
+    
+}
+
+.products {
+    display: flex;
+    flex-flow: column;
+}
+
+.product-item {
+    font-size: 12px;
+    display: inline-block;
+    text-anchor: middle;
+    width: 155px;
+    height: 25px;
+}
+input[type=submit] {
+    color: rgb(106, 106, 106);
+    border: none;
+    background: white;
+    display: inline-block;
+    text-anchor: middle;
+    width: 65px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.product-title > input {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+    color: rgb(0, 41, 125);
+}
